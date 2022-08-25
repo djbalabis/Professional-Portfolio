@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
         <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
         <title>Portfolio</title>
     </head>
-
     <body>
         <header class="hero">
             <nav>
@@ -23,13 +25,13 @@
                 <div class="hero-name">
                   <h2>D.J. Balabis</h2>
                   <h4>Full Stack Developer</h4>
-                  <div class="button">Hire Me</div>
+                  <div class="button"><a class="link" href="#contact">Hire Me</div></a>
                 </div>
             </div>
         </header>
 
-        <section class="content">
-            <div id="about-me" class="about">
+        <section id="about-me" class="content">
+            <div class="about">
                 <h2>About Me</h2>
                 <p>Hello, My name is Darnell Balabis but I go by D.J. I am a Full Stack Developer, Personal Trainer and Audio Engineer who loves working with creative and motivated people. </p>
             </div>
@@ -38,13 +40,55 @@
             </div>
         </section>
 
-        <section class="content">
-            <div id="projects" class="work">
-            
+        <section id="projects" class="content-alt">
+            <h2 class="work">Projects</h2>
+            <div id="main-card" class="project-card">
+                <h5>Project One</h5>
+                <div class="image">
+                    <a href="https://djbalabis.github.io/HTML-CSS-Git-Challenge/"><img class="project-img" src="./assets/images/djbalabis.github.io_HTML-CSS-Git-Challenge_.png" alt="Project Image One" /></a>
+                </div>
+                <p class="project-text">This is a Code Refactor project with semantic elements for accessibility.</p>
+                <p class="project-text"><a class="link" href="https://djbalabis.github.io/HTML-CSS-Git-Challenge/">View here</a></p>
+            </div>
+                <div class="project-section">
+                    <div class="project-card">
+                        <h5>Project Two</h5>
+                        <div class="image">
+                            <a href="https://github.com/djbalabis"><img class="project-img" src="./assets/images/181129-Website-GDPR-Picture.jpeg" alt="Project Image Two" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                        <p class="project-text"><a class="link" href="https://github.com/djbalabis">View here</a></p>
+                    </div>
+                    <div class="project-card">
+                        <h5>Project Three</h5>
+                        <div class="image">
+                            <a href="https://github.com/djbalabis"><img class="project-img" src="./assets/images/web-project-proposal-free-powerpoint-template-0.jpeg" alt="Project Image Three" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                        <p class="project-text"><a class="link" href="https://github.com/djbalabis">View here</a></p>
+                    </div>
+                    <div class="project-card">
+                        <h5>Project Four</h5>
+                        <div class="image">
+                            <a href="https://github.com/djbalabis"><img class="project-img" src="./assets/images/web_ilY3NoA.webp" alt="Project Image Four" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                        <p class="project-text"><a class="link" href="https://github.com/djbalabis">View here</a></p>
+                    </div>
+                    <div class="project-card">
+                        <h5>Project Five</h5>
+                        <div class="image">
+                            <a href="https://github.com/djbalabis"><img class="project-img" src="./assets/images/website-design-concept-pms-responsive-tablet-device.jpeg" alt="Project Image Five" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                        <p class="project-text"><a class="link" href="https://github.com/djbalabis">View here</a></p>
+                    </div>
+                </div>
         </section>
 
-        <footer>
-            <div id="contact" class="contact-info"></div>
+        <footer id="contact" >
+            <h2 class="contact-info">Contact Me</h2>
+            <p>darnell.balabis@protonmail.com</p>
         </footer>
     </body>
 </html>
