@@ -72,9 +72,30 @@ h2 {
     color: aqua;
 }
 
+h3 {
+    font-size: 50px;
+    color: black;
+}
+
 h4 {
     font-size: 25px;
     color: whitesmoke;
     margin-top: 15px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 150px;
 }
 
