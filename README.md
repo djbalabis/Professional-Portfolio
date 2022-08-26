@@ -10,4 +10,4 @@ The following image shows the web application's appearance and functionality:
 
 ![This Horiseon webpage is refactored to include a semantic HTML structure and consolidated CSS selectors and properties](./assets/images/_Users_fsociety_Code_Professional-Portfolio_index.html.png)
 
-[Deployed Application](https://djbalabis.github.io/HTML-CSS-Git-Challenge/)
+[Deployed Application](https://djbalabis.github.io/Professional-Portfolio/)

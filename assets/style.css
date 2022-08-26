@@ -1,7 +1,8 @@
+/* Set the custom universal font-famly */
 * {
     font-family: 'Noto Sans', sans-serif;
 }
-
+/* Hero background image set to full viewport height and width */
 .hero {
     height: 100vh;
     width: 100%;
@@ -9,7 +10,7 @@
     background-size: cover;
     background-position: center;
 }
-
+/* Aligned the navbar evenly spaced along the top */
 nav {
     display: flex;
     align-items: center;
@@ -32,7 +33,7 @@ li a {
     font-weight: bold;
     font-size: 30px;
 }
-
+/* Added a hover effect to the navbar links */
 li a:hover {
     color: #90CAF9;    
     transition: .5s;
@@ -43,7 +44,7 @@ li a:hover {
     font-size: 60px;
     color: whitesmoke;
 }
-
+/* Added two-toned font coloring to nav title and name */
 span {
     color: #90CAF9;
 }
@@ -51,7 +52,7 @@ span {
 .dot {
     color: whitesmoke;
 }
-
+/* Positions the name and button centered to the right */
 .hero-statement {
     display: flex;
     align-items: center;
@@ -71,7 +72,7 @@ span {
     font-size: 20px;
     margin-top: 20px;
 }
-
+/* Creates a background color change and shadow effect to the button */
 .button:hover {
     background-color: lightcoral;
     box-shadow: 2px 2px #90CAF9;
@@ -108,14 +109,14 @@ footer {
     text-align: center;
     padding: 70px;
 }
-
+/* Aligns the about me sections */
 .content {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 70px;
 }
-
+/* Positions the Projects sections to have a centered title */
 .content-alt {
     display: flex;
     flex-direction: column;
@@ -123,18 +124,18 @@ footer {
     text-align: center;
     margin: 50px;
 }
-
+/* Avatar image */
 .avatar {
     width: 400px;
     border-radius: 150px;
 }
-
+/* Sets the smaller project cards to wrap on smaller screens */
 .project-section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+/* Styling to the project cards as well as background image */
 .project-card {
     display: flex;
     justify-content: space-around;
@@ -151,7 +152,7 @@ footer {
 .project-text {
     font-size: 25px;
 }
-
+/* positions the first project card to be larger than the others */
 #main-card {
     width: auto;
     height: 500px;
@@ -162,20 +163,20 @@ footer {
     background-image: url(../assets/images/vector-abstract-gradient-background-dynamic-shapes-composition.jpeg);
     background-position: center;
 }
-
+/* sizes and adds a round border to the project images */
 .project-img {
     width: 200px;
     height: 200px;
     border-radius: 150px;
     box-shadow: 5px 5px 15px black;
 }
-
+/* Removes the underlined link decoration */
 .link {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-
+/* Sets the navbar links to flex-wrap under 900px screens */
 @media (max-width: 900px) {
     nav li {
       display: flex;
