@@ -17,7 +17,7 @@ nav {
     padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
 }
 
 li {
@@ -48,6 +48,10 @@ span {
     color: #90CAF9;
 }
 
+.dot {
+    color: whitesmoke;
+}
+
 .hero-statement {
     display: flex;
     align-items: center;
@@ -68,9 +72,14 @@ span {
     margin-top: 20px;
 }
 
+.button:hover {
+    background-color: lightcoral;
+    box-shadow: 2px 2px #90CAF9;
+}
+
 h2 {
     font-size: 50px;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
     margin-bottom: 20px;
     color: #90CAF9;
 }
@@ -123,20 +132,20 @@ footer {
 .project-section {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .project-card {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 25%;
     height: 500px;
     box-shadow: 5px 5px 20px grey;
     margin: 20px;
     border-radius: 8px;
     background-image: url(../assets/images/vector-abstract-gradient-background-dynamic-shapes-composition.jpeg);
     background-position: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .project-text {
@@ -145,12 +154,11 @@ footer {
 
 #main-card {
     width: auto;
-    height: 600px;
+    height: 500px;
     margin: 20px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-right: 75%;
     background-image: url(../assets/images/vector-abstract-gradient-background-dynamic-shapes-composition.jpeg);
     background-position: center;
 }
@@ -159,12 +167,8 @@ footer {
     width: 200px;
     height: 200px;
     border-radius: 150px;
+    box-shadow: 5px 5px 15px black;
 }
-
-/*.image {
-    display: flex;
-    justify-content: center;
-}*/
 
 .link {
     text-decoration: none;
@@ -172,9 +176,10 @@ footer {
     font-size: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     nav li {
-      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 
